@@ -2,7 +2,10 @@
   "name": "hugo-lunr-index",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "bin": {
+    "hugo-lunr-index": "lib/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
