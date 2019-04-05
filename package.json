@@ -4,11 +4,17 @@
   "description": "",
   "main": "lib/index.js",
   "bin": {
-    "hugo-lunr-index": "lib/index.js"
+    "hugo-lunr-index": "app.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "kozakana (https://blog.kozakana.net/)",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "gray-matter": "^4.0.2",
+    "lunr": "^2.3.6",
+    "remove-markdown": "^0.3.0",
+    "striptags": "^3.1.1"
+  }
 }
