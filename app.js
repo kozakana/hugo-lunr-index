@@ -1,3 +1,3 @@
 const index = require('./lib/')
 
-index.hugoLunrIndex('content')
+index.hugoLunrIndex({langs: 'ja'})
