@@ -1,7 +1,7 @@
 {
   "name": "hugo-lunr-index",
   "version": "0.1.0",
-  "description": "",
+  "description": "Create an index file for Hugo.",
   "main": "lib/index.js",
   "bin": {
     "hugo-lunr-index": "app.js"
@@ -9,6 +9,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:kozakana/hugo-lunr-index.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kozakana/hugo-lunr-index/issues"
+  },
+  "homepage": "https://github.com/kozakana/hugo-lunr-index",
   "author": "kozakana (https://blog.kozakana.net/)",
   "license": "ISC",
   "dependencies": {
