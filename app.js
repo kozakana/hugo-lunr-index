@@ -1,3 +1,4 @@
-const index = require('./lib/')
+const index = require('./lib/index')
+const args = require('./lib/args')
 
-index.hugoLunrIndex({langs: 'ja'})
+index.hugoLunrIndex(args.parse())
