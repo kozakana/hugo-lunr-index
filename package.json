@@ -1,6 +1,6 @@
 {
   "name": "hugo-lunr-index",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Create an index file for Hugo.",
   "main": "lib/index.js",
   "bin": {
